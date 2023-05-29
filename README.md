@@ -59,6 +59,5 @@ A API estará disponível em: http://localhost:3004
 - TypeScript
 - Express
 - TypeORM
-- PostgreSQL
 
 
