@@ -3,6 +3,8 @@
 
 API para gerenciar informações sobre times de futebol e partidas.
 
+Avaliação e materiais fornecidos pelo <a href="https://github.com/arleysouza"> Profº Arley Souza</a> na disciplina de Programação de Scripts do curso de Análise e Desenvolvimento de Sistemas da Fatec Jessen Vidal.
+
 -  ### Instalação
 ```
 Clone o repositório: git clone https://github.com/rafaeldossper/nodejs-typeorm.git
