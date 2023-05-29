@@ -2,7 +2,7 @@ import AppDataSource from "../data-source";
 import { ILike } from 'typeorm';
 import { Request, Response } from 'express';
 import { Team } from '../entities/Teams';
-import { Match } from '../entities/Match';
+
 
 class TeamsController {
 

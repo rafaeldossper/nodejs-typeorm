@@ -38,7 +38,7 @@ class MatchController {
         id: match.id
       });
     } catch (error) {
-      // Trate o erro de forma mais detalhada
+      // Tratar o erro de forma mais detalhada
       console.error("Erro ao salvar a partida:", error);
       res.status(500).json({ error: 'Ocorreu um erro ao persistir o registro de partida.' });
     }
@@ -119,7 +119,7 @@ class MatchController {
     match.visitor = visitor;
     match.date = new Date(date);
 
-    // Ajuste do fuso horário
+    // Ajuste no fuso horário
     match.date.setMinutes(match.date.getMinutes() + match.date.getTimezoneOffset());
 
     const updatedMatch = await matchRepo.save(match);
